@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Lucia",
+    "slug": "Lucia",
+    "privacy": "unlisted",
+    "owner": "luciaapp111_org",
+    "version": "1.5.8",
+    "orientation": "portrait",
+    "icon": "./assets/images/favicon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#242424"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.letslucia.lucia",
+      "infoPlist": {
+        "NSRemindersUsageDescription": "Lucia uses your calendar to sync future events and activities related to your trips.",
+        "NSCalendarsUsageDescription": "Lucia uses your calendar to sync future events and activities related to your trips."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/favicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.letslucia.lucia"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Lucia to access your photos to set them as your profile image.",
+          "savePhotosPermission": "Allow Lucia to access your photos to set them as your profile image."
+          // "isAccessMediaLocationEnabled": true     // Only for Android
+        }
+      ]
+    ]
+  }
+}
